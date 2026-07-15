@@ -1,0 +1,25 @@
+# --- Serveur Web & Core API ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic[email]>=2.6.0
+
+# --- Base de données MySQL ---
+mysql-connector-python>=8.3.0
+
+# --- Sécurité & Authentification ---
+bcrypt>=4.1.0
+pyjwt[crypto]>=2.8.0
+python-multipart>=0.0.9
+joblib==1.4.2
+
+# --- Data Science, Machine Learning & Analyse ---
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+lightgbm>=4.3.0
+
+# --- Explicabilité Modèle (Graduation Project) ---
+shap>=0.46.0
+
+# --- Utilitaires ---
+python-dotenv>=1.0.1

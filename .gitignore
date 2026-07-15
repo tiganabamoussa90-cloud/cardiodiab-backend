@@ -1,0 +1,15 @@
+# Environnements Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Fichiers sensibles
+.env
+.env.local
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+sql/schema.sql
