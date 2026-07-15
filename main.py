@@ -27,16 +27,14 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",    # Port par défaut de Vite (React)
-        "http://127.0.0.1:5173",
-        "http://localhost:3000",    # Au cas où j'utilises Create-React-App
-        "http://127.0.0.1:3000",
-        "http://192.168.2.9:5173",
+        "https://cardiodiab-frontend.vercel.app",  # votre vraie URL Vercel
+        "http://localhost:5173",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 #pour la gestion globale des exceptions qui n'ont pas été gérées
 #gestionnaire global d'exceptions dans FastAPI
